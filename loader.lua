@@ -4,4 +4,4 @@ local function import(owner, release, version, file)
 	return loadstring(game:HttpGet(("https://github.com/%s/%s/releases/%s/%s"):format(owner, release, tag, file)), file)()
 end
 
-import("typescript-lover123", "bloom-hub", "v1.3.1", "obfuscated.luau")
+import("typescript-lover123", "bloom-hub", "v1.3.2", "obfuscated.luau")
